@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSGFA4</title>
+</head>
+<body>
+    <script>
+            var a = prompt("Enter the length of side a: ");
+            var b = prompt("Enter the length of side b: ");
+            var c = prompt("Enter the length of side c: ");
+
+        function determineTriangle(a,b,c){
+            (isNaN(a,b,c));{
+                window.alert("The length of the side of the triangle must be a number. Please input it again.")
+            }
+            if (a == b && b == c){
+                window.alert("The triangle is EQUILATERAL");
+            }
+            else if( a == b || a == c || b == c){
+                window.alert("The triangle is ISOSCELES");
+            }
+            else {
+                window.alert("The triangle is ISOSCELES");
+            }
+        }
+        determineTriangle(a,b,c);
+
+    </script>
+</body>
+</html>
